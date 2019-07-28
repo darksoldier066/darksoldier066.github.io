@@ -12,8 +12,8 @@ if(isset($_POST['kullanici']) && isset($_POST['sifre'])) { // form gönderilmiş
    } else {
       if($kullanici == 'musa' && $sifre == '123456') { // bilgiler doğru mu
          session_start();
-         $_SESSION['kullanici'] = 'musa';
-         $_SESSION['sifre'] = '123456';
+         $_SESSION['kullanici'] = 'msemtaskin@hotmail.com';
+         $_SESSION['sifre'] = 'taskin784';
          echo 'Giriş yaptınız! Şimdi panel.php ye girebilirsiniz.';
       } else {
          echo 'Yanlış kullanıcı adı ya da şifre';
